@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="social-proof-section">
+        <!-- DESKTOP AND MOBILE PATTERNS-->
+        <img class="social-proof__pattern-top-desktop" src="images/bg-pattern-top-desktop.svg" alt=pattern / >
+        <img class="social-proof__pattern-top-mobile" src="images/bg-pattern-top-mobile.svg" alt=pattern / >
+        <img class="social-proof__pattern-bottom-mobile" src="images/bg-pattern-bottom-mobile.svg" alt=pattern / >
+        <img class="social-proof__pattern-bottom-desktop" src="images/bg-pattern-bottom-desktop.svg" alt=pattern / >
+        <!-------------------------------->
+        <div class="social-proof">
+          <div class="social-proof__introduction-and-rating">
+            <div class="social-proof__introduction">
+              <h1 class="social-proof__heading">
+                10,000+ of our users love our products.
+              </h1>
+              <p class="social-proof__description">
+                We only provide great products combined with excellent customer
+                service. See what our satisfied customers are saying about our
+                services.
+              </p>
+            </div>
+            <div class="social-proof__rating">
+              <ul class="social-proof__rating-list">
+                <li class="social-proof__items social-proof_items--mg-left-23">
+                  <figure class="social-proof__figure ">
+                    <div class="social-proof__figure-stars">
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" /></div><span
+                      class="social-proof__rating-description"
+                      >Rated 5 Stars in Reviews</span
+                    >
+                  </figure>
+                </li>
+                <li class="  social-proof_items social-proof_items--mg-left-25">
+                  <figure class="social-proof__figure ">
+                    <div class="social-proof__figure-stars">
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                  </div>
+                    <span class="social-proof__rating-description"
+                      >Rated 5 Stars in Report Guru</span
+                    >
+                  </figure>
+                </li>
+                <li class=" social-proof_items social-proof_items--justify-end">
+                  <figure class="social-proof__figure ">
+                    <div class="social-proof__figure-stars">
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    <img src="images/icon-star.svg" />
+                    </div>
+                    <span class="social-proof__rating-description">
+                      Rated 5 Stars in BestTech</span
+                    >
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-proof__testimonials">
+            <blockquote class="social-proof__testimonial">
+              <div class="social-proof__testimonial--flex-container">
+                <img
+                  alt="testimonial person"
+                  class="social-proof__testimonial-person"
+                  src="images/image-colton.jpg"
+                />
+                <div class="social-proof__testimonial-detail">
+                  <h4 class="social-proof__testimonial-author">Colton Smith</h4>
+                  <h4 class="social-proof__testimonial-verified">
+                    Verified Buyer
+                  </h4>
+                </div>
+              </div>
+              <p class="social-proof__testimonial-text">
+                "We needed the same printed design as the one we had ordered a
+                week prior. Not only did they find the original order, but we
+                also received it in time. Excellent!"
+              </p>
+            </blockquote>
+            <blockquote
+              class="social-proof__testimonial social-proof__mg-top-5"
+            >
+              <div class="social-proof__testimonial--flex-container">
+                <img
+                  alt="testimonial person"
+                  class="social-proof__testimonial-person"
+                  src="images/image-irene.jpg"
+                />
+                <div class="social-proof__testimonial-detail">
+                  <h4 class="social-proof__testimonial-author">
+                    Irene Roberts
+                  </h3>
+                  <h4 class="social-proof__testimonial-verified">
+                    Verified Buyer
+                  </h4>
+                </div>
+              </div>
+              <p class="social-proof__testimonial-text">
+                "Customer service is always excellent and very quick turn
+                around. Completely delighted with the simplicity of the purchase
+                and the speed of delivery."
+              </p>
+            </blockquote>
+            <blockquote
+              class="social-proof__testimonial social-proof__mg-top-10"
+            >
+              <div class="social-proof__testimonial--flex-container">
+                <img
+                  alt="testimonial person"
+                  class="social-proof__testimonial-person"
+                  src="images/image-anne.jpg"
+                />
+                <div class="social-proof__testimonial-detail">
+                  <h4 class="social-proof__testimonial-author">Anne Wallace</h4>
+                  <h4 class="social-proof__testimonial-verified">
+                    Verified Buyer
+                  </h4>
+                </div>
+              </div>
+              <p class="social-proof__testimonial-text">
+                "Put an order with this company and can only praise them for the
+                very high standard. Will definitely use them again and recommend
+                them to everyone!"
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="frontendmentor-footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Sergiu</a>.
+      </div>
+    </footer>
+  </body>
+</html>

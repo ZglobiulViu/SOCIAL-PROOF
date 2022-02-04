@@ -1,0 +1,129 @@
+/* FOR LAPTOPS 72em=1150px */
+@media (max-width: 72em) {
+  .social-proof__pattern-top-desktop {
+    display: none;
+  }
+  .social-proof__pattern-top-mobile {
+    display: inline-block;
+  }
+  .social-proof__pattern-bottom-desktop {
+    display: none;
+  }
+  .social-proof__pattern-bottom-mobile {
+    display: inline-block;
+  }
+  .social-proof__testimonials {
+    grid-template-columns: 1fr 1fr;
+  }
+  .social-proof__mg-top-5 {
+    margin-top: 0;
+  }
+  .social-proof__mg-top-10 {
+    margin-top: 0;
+    position: relative;
+    left: 50%;
+  }
+  .social-proof__heading {
+    font-size: 4.4rem;
+  }
+  .social-proof__introduction-and-rating {
+    gap: 3.6em;
+  }
+  .social-proof_items--mg-left-23 {
+    margin-left: 0;
+  }
+  .social-proof_items--mg-left-25 {
+    margin-left: 0;
+  }
+}
+/* FOR TABLETS 58em=930px */
+@media (max-width: 58em) {
+  .social-proof__heading {
+    font-size: 3.6rem;
+  }
+  .social-proof__description {
+    font-size: 1.2rem;
+  }
+  .social-proof-section {
+    height: 100%;
+  }
+  .social-proof__rating-description {
+    font-size: 1rem;
+  }
+  .social-proof_items--justify-end {
+    justify-self: start;
+  }
+  .social-proof_items--mg-left-23 {
+    justify-self: stretch;
+  }
+  .social-proof_items--mg-left-25 {
+    justify-self: start;
+  }
+  .social-proof_items {
+    width: 100%;
+    justify-self: stretch;
+  }
+  .social-proof__figure {
+    width: 100%;
+  }
+}
+/* FOR SMALL TABLETS 46em=740px */
+@media (max-width: 46em) {
+  .social-proof__introduction-and-rating {
+    grid-template-columns: 1fr;
+  }
+  .social-proof__introduction {
+    text-align: center;
+  }
+  .social-proof__rating {
+    justify-self: center;
+  }
+  .social-proof__description {
+    font-size: 1.6rem;
+  }
+  .social-proof__rating-description {
+    font-size: 1.5rem;
+  }
+  .social-proof__testimonials {
+    grid-template-columns: 1fr;
+  }
+  .social-proof__mg-top-10 {
+    margin-top: 0;
+    position: relative;
+    left: 0;
+  }
+  .social-proof__figure {
+    padding: 3.2rem;
+    width: 100%;
+  }
+  .social-proof_items {
+    width: 100%;
+    justify-self: stretch;
+  }
+  .social-proof_items--mg-left-23 {
+    justify-self: stretch;
+  }
+}
+
+/* FOR PHONES 31em=500px */
+@media (max-width: 31em) {
+  .social-proof__description {
+    font-size: 1.2rem;
+    padding: 1.4em;
+  }
+  .social-proof__rating-description {
+    font-size: 1.2rem;
+    justify-self: center;
+  }
+  .social-proof__figure {
+    grid-template-columns: 1fr;
+    padding: 1em;
+    gap: 1em;
+  }
+  .social-proof__rating {
+    justify-self: stretch;
+  }
+  .social-proof__figure-stars {
+    justify-self: center;
+  }
+}
